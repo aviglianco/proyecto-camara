@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+
+    
+</head>
+<body>
+    <div class="carreras">
+        <div class="card container-sm">
+            <div class="card-body">
+            <h2>Titulo:  ${titulo}</h2>
+            <p>Universidad: ${universidad}</p>
+            <p>Duracion: ${duracion}</p>
+            <p>Descripcion: ${descripcion}</p>
+            </div>
+            </div>
+    </div>
+
+    <form">
+        <select name="" id="filtroDato">
+            <option value="1a">1a</option>
+            <option value="2a">2a</option>
+        </select>
+        <button onClick=filter()>SEND</button>
+    </form>
+
+    <script src="render.js"></script>
+    <script>
+        //class Carrera extends HTMLElement{}
+        window.customElements.define('carrera-item', CarreraRender)
+    </script>
+    <script type = "text/javascript" src="bootstrap-5.0.2-dist/js/jquery-3.2.1.min.js"></script>
+    <script type = "text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script type = "text/javascript" src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
