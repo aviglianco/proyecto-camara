@@ -4,38 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio</title>
+
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
-
-    
-</head>
-<body>
-    <div class="carreras">
-        <div class="card container-sm">
-            <div class="card-body">
-            <h2>Titulo:  ${titulo}</h2>
-            <p>Universidad: ${universidad}</p>
-            <p>Duracion: ${duracion}</p>
-            <p>Descripcion: ${descripcion}</p>
-            </div>
-            </div>
-    </div>
-
-    <form">
-        <select name="" id="filtroDato">
-            <option value="1a">1a</option>
-            <option value="2a">2a</option>
-        </select>
-        <button onClick=filter()>SEND</button>
-    </form>
-
-    <script src="render.js"></script>
-    <script>
-        //class Carrera extends HTMLElement{}
-        window.customElements.define('carrera-item', CarreraRender)
-    </script>
+    <link rel="stylesheet" href="css/style.css">
     <script type = "text/javascript" src="bootstrap-5.0.2-dist/js/jquery-3.2.1.min.js"></script>
     <script type = "text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script type = "text/javascript" src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">🙌 FUTURO EN TUS MANOS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarToggler" aria-controls="navBarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navBarToggler">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="carreras.html">Carreras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Sobre nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+
+
 </body>
 </html>
