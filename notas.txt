@@ -1,0 +1,16 @@
+Home
+- Contable
+- Ingenieria
+- ...
+
+Por cada rama, cards con carreras específicas
+Por cada carrera la info de la carrera con sus universidades. 
+    Adentro de cada carrera busqueda por universidades.
+
+1. Título de la carrera
+2. Descripción
+3. Objetivos
+4. Salida laboral
+5. Universidades
+6. Duracion
+7. Plan de estudios
