@@ -1,3 +1,36 @@
+/*
+#e81678
+#e8b716
+#16dae8
+*/
+
 nav{
     font-size: x-large;
+}
+
+.bg-carrera{
+    background-color: #16dae8;
+    color: rgb(0, 0, 22);
+}
+
+.cont-carrera h4{
+    color: #e81678;
+}
+
+.rosa{
+    background-color: #e81678;
+}
+
+.btn-univ{
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.cont-univ{
+    border: 2px solid #16dae8;
+    border-radius: 10px;
+    padding: 10px;
 }
