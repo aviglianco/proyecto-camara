@@ -33,3 +33,14 @@ export const carreras = [
         descripcion: '1c'
 }
 ];
+
+
+/*
+1. Título de la carrera
+2. Descripción
+3. Objetivos
+4. Salida laboral
+5. Universidades
+6. Duracion
+7. Plan de estudios
+*/
