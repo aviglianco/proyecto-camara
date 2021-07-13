@@ -4,6 +4,17 @@
 #16dae8
 */
 
+.jumbotron-contables {
+    height: 20rem;
+    padding: 2rem 1rem;
+    margin: 1rem;
+    border-radius: .3rem;
+    background-image: url("../imagenes/carreras/admin-empresas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+
 nav{
     font-size: x-large;
 }
