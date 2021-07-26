@@ -4,6 +4,11 @@
 #16dae8
 */
 
+a{
+    text-decoration: none;
+}
+
+
 .container-contables {
     background-image: url("../imagenes/contabilidad.jpg");
     height: 33%;
@@ -18,7 +23,36 @@
 
 nav{
     font-size: x-large;
+    padding: 0 15%;
 }
+
+/* Seccion de ramas */
+
+.c-contable{
+    text-align: center;
+    padding: 30px;
+    font-family: Helvetica;
+}
+
+.c-contable:hover{
+    background-color: #586773b0;
+    background-;
+}
+
+.c-contable h4{
+    color:#ddd;
+    font-size: 25px;
+    margin: auto 0;
+}
+
+.c-contable h5{
+    color:#ddd;
+    font-size: 6rem;
+    margin: auto 0;
+    line-height: 1.2;
+}
+
+
 
 .bg-carrera{
     background-color: #16dae8;
