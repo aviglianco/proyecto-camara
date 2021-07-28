@@ -4,54 +4,61 @@
 #16dae8
 */
 
-body{
+body {
     width: 100% vw;
     height: 100% vh;
     margin: 0;
+
 }
 
-a{
+a {
     text-decoration: none;
 }
 
+.container-ramas {
+    position: relative;
+}
 
 .container-contables {
     background-image: url("../imagenes/contabilidad.jpg");
-    height: 33%;
+    height: 100vh;
     display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center; /* align vertical */
-  }
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
+}
 
-  .container-ramas {
-      height: 200rem;
-  }
+.flecha-down {
+    position: absolute;
+    bottom: 0px;
+}
 
-nav{
+nav {
     font-size: x-large;
     padding: 0 15%;
 }
 
 /* Seccion de ramas */
 
-.c-contable{
+.c-contable {
     text-align: center;
     padding: 30px;
     font-family: Helvetica;
 }
 
-.c-contable:hover{
+.c-contable:hover {
     background-color: #586773b0;
 }
 
-.c-contable h4{
-    color:#ddd;
+.c-contable h4 {
+    color: #ddd;
     font-size: 25px;
     margin: auto 0;
 }
 
-.c-contable h5{
-    color:#ddd;
+.c-contable h5 {
+    color: #ddd;
     font-size: 6rem;
     margin: auto 0;
     line-height: 1.2;
@@ -59,20 +66,20 @@ nav{
 
 
 
-.bg-carrera{
+.bg-carrera {
     background-color: #16dae8;
     color: rgb(0, 0, 22);
 }
 
-.cont-carrera h4{
+.cont-carrera h4 {
     color: #e81678;
 }
 
-.rosa{
+.rosa {
     background-color: #e81678;
 }
 
-.btn-univ{
+.btn-univ {
     color: #ffffff;
     font-size: 20px;
     margin-left: auto;
@@ -80,7 +87,7 @@ nav{
 
 }
 
-.cont-univ{
+.cont-univ {
     border: 2px solid #16dae8;
     border-radius: 10px;
     padding: 10px;
@@ -94,15 +101,18 @@ nav{
     float: left;
     border-radius: 10px;
 }
+
 .card-box .card-thumbnail {
     max-height: 200px;
     overflow: hidden;
     border-radius: 10px;
     transition: 1s;
 }
+
 .card-box .card-thumbnail:hover {
     transform: scale(1.2);
 }
+
 .card-box h3 a {
     font-size: 20px;
     text-decoration: none;
@@ -111,16 +121,19 @@ nav{
 .hero-banner h1 {
     font-size: 48px;
 }
+
 .hero-banner .btn {
     position: relative;
     overflow: hidden;
     z-index: 9;
 }
+
 .hero-banner .btn-primary {
     color: #2f2f41;
     background-color: rgba(1, 164, 121, 0.1);
     border-color: #01a479;
 }
+
 .hero-banner .btn:before {
     content: "";
     background: #ed5561;
@@ -136,12 +149,13 @@ nav{
     -o-transition: all 0.5s ease-in-out 0s;
     transition: all 0.5s ease-in-out 0s;
 }
+
 .hero-banner .btn:hover:before {
     width: 100%;
 }
 
 img.flechaup {
-	display:block;
+    display: block;
     position: absolute;
     top: 0%;
     width: 100px;
@@ -149,11 +163,11 @@ img.flechaup {
     right: 0;
     left: 0;
     opacity: 0.5;
-    transition:all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 img.flechadown {
-	display:block;
+    display: block;
     position: absolute;
     top: 85%;
     width: 100px;
@@ -161,5 +175,5 @@ img.flechadown {
     right: 0;
     left: 0;
     opacity: 0.5;
-    transition:all 0.3s ease;
+    transition: all 0.3s ease;
 }
