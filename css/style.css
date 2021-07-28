@@ -19,7 +19,7 @@ a {
     position: relative;
 }
 
-.container-contables {
+.container-area {
     background-image: url("../imagenes/contabilidad.jpg");
     height: 100vh;
     display: flex;
