@@ -4,6 +4,12 @@
 #16dae8
 */
 
+body{
+    width: 100% vw;
+    height: 100% vh;
+    margin: 0;
+}
+
 a{
     text-decoration: none;
 }
@@ -36,7 +42,6 @@ nav{
 
 .c-contable:hover{
     background-color: #586773b0;
-    background-;
 }
 
 .c-contable h4{
