@@ -15,11 +15,45 @@ a {
     text-decoration: none;
 }
 
+nav {
+    font-size: x-large;
+    padding: 0 15%;
+}
+
+/* Iconos ramas */
+
+.card{
+    border: hidden;
+    height: 100%;
+    align-items: stretch;
+}
+
+.card h3{
+    text-align: center;
+}
+
+.card img{
+    margin: 0 auto;
+    display: flex;
+}
+
+.card-title{
+    font-size: 1em;
+    padding: 5px;
+    margin: auto 0;
+}
+
+
+
+
+/* Seccion de ramas */
+
 .container-ramas {
     position: relative;
 }
 
-.container-contables {
+.container-seccion {
+    position: relative;
     background-image: url("../imagenes/contabilidad.jpg");
     height: 100vh;
     display: flex;
@@ -34,37 +68,36 @@ a {
     bottom: 0px;
 }
 
-nav {
-    font-size: x-large;
-    padding: 0 15%;
+.flecha-up {
+    position: absolute;
+    top: 0px;
+    transform: rotate(180deg);
 }
 
-/* Seccion de ramas */
-
-.c-contable {
+.letra-area {
     text-align: center;
     padding: 30px;
     font-family: Helvetica;
 }
 
-.c-contable:hover {
+.letra-area:hover {
     background-color: #586773b0;
 }
 
-.c-contable h4 {
+.letra-area h4 {
     color: #ddd;
     font-size: 25px;
     margin: auto 0;
 }
 
-.c-contable h5 {
+.letra-area h5 {
     color: #ddd;
     font-size: 6rem;
     margin: auto 0;
     line-height: 1.2;
 }
 
-
+/* Carreras */
 
 .bg-carrera {
     background-color: #16dae8;
