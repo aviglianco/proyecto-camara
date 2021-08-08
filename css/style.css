@@ -44,8 +44,6 @@ nav {
 }
 
 
-
-
 /* Seccion de ramas */
 
 .container-ramas {
@@ -96,6 +94,29 @@ nav {
     margin: auto 0;
     line-height: 1.2;
 }
+
+/* Footer */
+
+.footer{
+    height: 200px;
+    background-color: #2f2f41;
+}
+
+.info-footer{
+    font-size: 16px;
+    color: #ffffff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+}
+
+.texto-footer{
+    width: 30%;
+    margin: 0 auto;
+}
+
+
 
 /* Carreras */
 
